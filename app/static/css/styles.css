@@ -1,0 +1,39 @@
+:root {
+    --black: #000000;
+    --very-dark-gray: #121212;
+    --dark-gray: #1E1E1E;
+    --medium-gray: #2E2E2E;
+    --light-gray: #424242;
+    --silver-gray: #BDBDBD;
+    --smoke-white: #E0E0E0;
+    --white: #FFFFFF;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--very-dark-gray);
+    color: var(--smoke-white);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
